@@ -1,0 +1,109 @@
+html,
+body,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Nunito", sans-serif;
+  background-color: #e1e1e1;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+}
+
+header {
+  text-align: center;
+  background-color: #ef4223;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #fff;
+  padding: 1rem;
+}
+
+#time {
+  display: flex;
+  max-width: 70%;
+  margin: 0.5rem auto;
+}
+
+#time #session-time,
+#time #break-time {
+  flex: 1;
+}
+
+.btn {
+  padding: 6px 12px;
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+#sessionNum,
+#breakNum {
+  padding: 0.5rem;
+}
+
+a:link {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:link,
+a:active {
+  outline: 0;
+  color: #1b1b1b;
+}
+
+#clock {
+  max-width: 70%;
+  margin: 2.3rem auto;
+  text-align: center;
+}
+
+#clock h2 {
+  color: #1b1b1b;
+}
+
+#counter {
+  background-color: #f06342;
+  color: #fff;
+  height: 250px;
+  width: 250px;
+  line-height: 250px;
+  border-radius: 100%;
+  border: 3px solid #fff;
+  font-size: 4rem;
+  margin: 1rem auto;
+}
+
+#start {
+  margin: 1rem;
+}
+
+.fa {
+  color: #1b1b1b;
+}
+
+@media screen and (max-width: 480px) {
+  #time {
+    max-width: 100%;
+  }
+
+  #time #session-time h2,
+  #time #break-time h2 {
+    font-size: 1.2rem;
+  }
+}
